@@ -11,8 +11,8 @@ assignees: ''
 <!-- ⚠️ Make sure to browse the opened and closed issues -->
 
 # New experiment proposal
-Provide the experiment and implementation details below and ask the qiskit-experiments core team to review 
-your proposal. 
+<!-- Provide the experiment and implementation details below and ask the qiskit-experiments core team to review 
+your proposal.  -->
 
 ## General details
 
