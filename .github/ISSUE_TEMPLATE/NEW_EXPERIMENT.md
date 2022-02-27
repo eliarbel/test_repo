@@ -1,4 +1,4 @@
---->
+---
 name: "\U0001F4CB New experiment proposal"
 about: "Proposal and workflow guideline for adding a new experiment \U0001F52C."
 title: ''
