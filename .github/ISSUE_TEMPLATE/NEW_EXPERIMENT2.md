@@ -1,5 +1,5 @@
 ---
-name: "\U0001F4CB New experiment proposal"
+name: "\U0001F4CB New experiment proposal2"
 about: "Proposal and workflow guideline for adding a new experiment \U0001F52C."
 title: ''
 labels: enhancement
