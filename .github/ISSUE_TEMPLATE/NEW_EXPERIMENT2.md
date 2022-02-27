@@ -17,16 +17,18 @@ your proposal.  -->
 ## General details
 
 ### Experiment name
-What is the experiment class name? This name will also be used in the API documentation and tutorial.
+<!-- What is the experiment class name? This name will also be used in the API documentation and tutorial. -->
 
 ### Experiment type
-What is the experiment type? Characterization, calibration, verification, validation, or other? 
+<!-- What is the experiment type? Characterization, calibration, verification, validation, or other? -->
 
 ### Experiment protocol
+<!--
 Provide a concise description of the experiment. Make sure you cover the following aspects:  
 * What is the main goal of the experiment?
 * Describe the circuits/pulses and their main parameters needed for the experiment
 * What are the main outputs of the experiment?
+-->
 
 ### Experiment analysis
 Provide a concise description of the experiment's analysis. Make sure you cover the following aspects:
