@@ -34,7 +34,7 @@ jobs:
       uses: github/issue-metrics@v3
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SEARCH_QUERY: 'repo:Qiskit-Extensions/qiskit-ibm-experiment is:issue -reason:"not planned"'
+        SEARCH_QUERY: 'repo:Qiskit-Extensions/qiskit-ibm-experiment is:issue -reason:"not planned" is:open'
 
     - name: Create issue
       uses: peter-evans/create-issue-from-file@v4
