@@ -1,4 +1,4 @@
-name: Monthly issue metrics
+name: Qiskit Experiments Open Issue metrics
 on:
   workflow_dispatch:
   schedule:
@@ -34,7 +34,7 @@ jobs:
       uses: github/issue-metrics@v3
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SEARCH_QUERY: 'repo:Qiskit-Extensions/qiskit-ibm-experiment is:issue -reason:"not planned" is:open'
+        SEARCH_QUERY: 'repo:Qiskit-Extensions/qiskit-experiments is:issue -reason:"not planned" is:open'
 
     - name: Create issue
       uses: peter-evans/create-issue-from-file@v4
