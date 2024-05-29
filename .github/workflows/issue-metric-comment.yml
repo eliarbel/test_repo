@@ -33,5 +33,6 @@ jobs:
         comment-id: 2138164430
         reactions: eyes
         body-path: ./issue_metrics.md
+        edit-mode: replace
           
 
