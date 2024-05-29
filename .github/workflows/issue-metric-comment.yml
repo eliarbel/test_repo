@@ -1,4 +1,4 @@
-name: Qiskit IBM Experiment Open Issue Metrics - report
+name: Issue Metrics Comment - report
 on:
   workflow_dispatch:
   schedule:
