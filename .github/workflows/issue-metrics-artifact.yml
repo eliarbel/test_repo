@@ -21,7 +21,7 @@ jobs:
       uses: github/issue-metrics@v3
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SEARCH_QUERY: 'repo:Qiskit-Extensions/qiskit-ibm-experiment is:issue is:open'
+        SEARCH_QUERY: 'repo:Qiskit/qiskit is:issue is:open'
         HIDE_AUTHOR: true
         HIDE_TIME_TO_CLOSE: true
         HIDE_TIME_TO_ANSWER: true
