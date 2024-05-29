@@ -1,4 +1,4 @@
-name: Qiskit Experiments Open Issue metrics
+name: Qiskit IBM Experiment Open Issue Metrics - report
 on:
   workflow_dispatch:
   schedule:
