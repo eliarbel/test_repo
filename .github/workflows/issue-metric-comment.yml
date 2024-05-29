@@ -1,0 +1,37 @@
+name: Qiskit IBM Experiment Open Issue Metrics - report
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 2 1 * *'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: issue metrics
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: read
+
+    steps:
+
+    - name: Run issue-metrics tool
+      uses: github/issue-metrics@v3
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SEARCH_QUERY: 'repo:eliarbel/test_repo is:issue is:open'
+        HIDE_AUTHOR: true
+        HIDE_TIME_TO_CLOSE: true
+        HIDE_TIME_TO_ANSWER: true
+
+
+    - name: Update tracking comment
+      uses: actions/create-or-update-comment@v4
+      with:
+        comment-id: 2138164430
+        reactions: eyes
+        body-path: ./issue_metrics.md
+          
+
