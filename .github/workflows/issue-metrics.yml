@@ -34,9 +34,10 @@ jobs:
       uses: github/issue-metrics@v3
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SEARCH_QUERY: 'repo:Qiskit-Extensions/qiskit-experiments is:issue -reason:"not planned" is:open'
+        SEARCH_QUERY: 'repo:Qiskit-Extensions/qiskit-experiments is:issue is:open'
         HIDE_AUTHOR: true
         HIDE_TIME_TO_CLOSE: true
+        HIDE_TIME_ANSWER: true
 
     - name: Create issue
       uses: peter-evans/create-issue-from-file@v4
