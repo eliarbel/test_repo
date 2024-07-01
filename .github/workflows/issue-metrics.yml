@@ -1,8 +1,8 @@
 name: Qiskit Experiments Open Issue metrics
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '3 2 1 * *'
+#  schedule:
+#    - cron: '3 2 1 * *'
 
 permissions:
   contents: read
